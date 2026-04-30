@@ -3,7 +3,7 @@ name: Send Email on Schedule
 on:
   schedule:
     # This runs every day at 04:00 UTC (9:30 AM IST)
-    - cron: '0 4 * * *'
+    - cron: '* * * * *'
   workflow_dispatch: # This adds a manual "Play" button
 
 jobs:
