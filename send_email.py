@@ -10,7 +10,7 @@ def send_mail():
     msg = EmailMessage()
     msg['Subject'] = "Automated Browser-Based Email"
     msg['From'] = EMAIL_ADDRESS
-    msg['To'] = "RECIPIENT@EXAMPLE.COM" # <--- CHANGE THIS TO YOUR EMAIL
+    msg['To'] = "workusekg@gmail.com" # <--- CHANGE THIS TO YOUR EMAIL
     msg.set_content("Success! This was sent entirely from the GitHub cloud.")
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
